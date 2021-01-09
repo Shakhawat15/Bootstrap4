@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Collapse & Accordion | Bootstrap 4</title>
+</head>
+<body>
+  <h1 class="display-4 text-center my-4">Collapse & Accordion</h1>
+
+  <div class="container">
+  <!--########################START HERE#########################-->
+
+  <!-- BUTTON WITH COLLAPSE -->
+  <button class="btn btn-primary mb-4" data-target="#collapse-1" data-toggle="collapse">Read More</button>
+  
+  <div class="collapse" id="collapse-1">
+      <div class="card">
+          <div class="card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur doloremque neque rerum aliquam quos iste consequuntur, vero fugiat quis voluptate. Voluptatibus, omnis saepe obcaecati voluptate vero deserunt repellendus eius praesentium amet fuga! Molestias natus reiciendis, ipsam ut! Similique officia natus voluptate placeat ex, magnam beatae dicta, laudantium itaque praesentium minima, sit vel aspernatur optio magni, nisi excepturi cumque nam doloremque dolores accusantium dolorum? Excepturi animi, dolores! Officia nobis cupiditate id cumque esse, accusamus? Maiores incidunt provident, nostrum tenetur perferendis numquam, officia vero officiis excepturi veritatis odio distinctio voluptates alias illum. Incidunt temporibus rerum, obcaecati natus cum, laudantium odit reprehenderit velit.</p>
+          </div>
+      </div>
+  </div>
+  <br>
+  <!-- ACCORDION -->
+  <div id="accordian" role="tablist">
+      <div class="card">
+          <div class="card-header" role="tab">
+              <h5 class="mb-0">
+                  <a href="#accordian-1" data-toggle="collapse">Sction 1</a>
+              </h5>
+          </div>
+          <div class="collapse show" id="accordian-1" data-parent="#accordian">
+              <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nam quaerat atque officiis omnis! Mollitia animi vitae, illum quam nobis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, repellendus ipsum atque, animi nisi, labore rerum beatae tenetur dolor, dolores amet incidunt aut laboriosam corrupti.</p>
+              </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="card-header" role="tab">
+              <h5 class="mb-0">
+                  <a href="#accordian-2" data-toggle="collapse">Sction 2</a>
+              </h5>
+          </div>
+          <div class="collapse" id="accordian-2" data-parent="#accordian">
+              <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nam quaerat atque officiis omnis! Mollitia animi vitae, illum quam nobis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, repellendus ipsum atque, animi nisi, labore rerum beatae tenetur dolor, dolores amet incidunt aut laboriosam corrupti.</p>
+              </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="card-header" role="tab">
+              <h5 class="mb-0">
+                  <a href="#accordian-3" data-toggle="collapse">Sction 2</a>
+              </h5>
+          </div>
+          <div class="collapse" id="accordian-3" data-parent="#accordian">
+              <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nam quaerat atque officiis omnis! Mollitia animi vitae, illum quam nobis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, repellendus ipsum atque, animi nisi, labore rerum beatae tenetur dolor, dolores amet incidunt aut laboriosam corrupti.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+
+  </div>
+
+  <div style="margin-top:500px;"></div>
+
+    <script src="js/jquery-slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
